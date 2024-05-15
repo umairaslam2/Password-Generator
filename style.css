@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    padding: 0 30px;
+  }
+  .container{
+    width: 340px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a9f90;
+    box-shadow: 5px 5px 19px  black;
+  }
+  .container h1{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 20px 0;
+  }
+  .container .inputBox{
+    width: 100%;
+    height: 35px;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .container .inputBox input{
+    width: 100%;
+    height: 100%;
+    background: #e9e1e1;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #ca1f22;
+    border-radius: 10px;
+    border: none;
+    overflow-x: hidden;
+  }
+  .container .inputBox i {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .container input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .container .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .container .row p{
+    width: 85%;
+    font-size: 15px;
+  }
+  .container .row span{
+    width: 10%;
+  }
+  .container .row input{
+    width: 10%;
+    height: 15px;
+  }
+  .container .buttonBox{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .container .buttonBox button{
+    width: 100%;
+    background: #375ae6;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 0;
+    cursor: pointer;
+  }
